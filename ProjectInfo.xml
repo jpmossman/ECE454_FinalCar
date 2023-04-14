@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MKL25Z128xxx4</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M0+</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>16k</SRAMsize>
+    <FLASHsize>128k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\</Path>
+      <Path>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\IO_Map\</Path>
+      <Path>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\</Path>
+      <Path>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\</Path>
+      <Path>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Project_Settings\Startup_Code\</Path>
+      <Path>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\AO.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\AS1.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\ASerialLdd1.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\AdcLdd1.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\BitIoLdd1.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\Cap1.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\CaptureLdd1.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\Clk.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\LineCameraPIT.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\LineCameraTimer.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\MotorTimer.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PWM_BA.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PWM_BB.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PWM_FA.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PWM_FB.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd1.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd2.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd3.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd4.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd5.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd6.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\SI.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\SI_Timer.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\Servo.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\TimerIntLdd1.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\Vectors.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\VelocityTimer.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Project_Settings\Startup_Code\startup.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Events.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\LineCam.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Motors.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Velocity.c</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\main.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\AO.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\AS1.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\ASerialLdd1.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\AdcLdd1.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\BitIoLdd1.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\Cap1.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\CaptureLdd1.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\Clk.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\LineCameraPIT.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\LineCameraTimer.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\MotorTimer.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PWM_BA.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PWM_BB.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PWM_FA.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PWM_FB.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd1.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd2.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd3.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd4.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd5.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\PwmLdd6.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\SI.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\SI_Timer.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\Servo.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\TimerIntLdd1.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\VelocityTimer.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Events.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\LineCam.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Motors.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Velocity.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\IO_Map\MKL25Z4.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\ADC_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\CMP_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\COP_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\DAC_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\DMAMUX_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\DMA_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\FTFA_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\GPIO_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\I2C_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\LPTMR_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\MCG_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\MCM_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\OSC_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\PDD_Types.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\PIT_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\PORT_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\RTC_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\SIM_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\SPI_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\SysTick_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\TPM_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\TSI_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\UART0_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\UART_PDD.h</PathName>
+      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\USB_PDD.h</PathName>
+    </GeneratedHs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>
