@@ -21,6 +21,7 @@ typedef enum MotorDir_t {
 
 // Public functions
 void motors_set(MotorDir_t direction, uint16_t duty);
+uint16_t motors_get_duty(void);
 //uint16_t motors_get_speed(void);
 //MotorDir_t motors_get_dir(void);
 

@@ -16,6 +16,10 @@ uint16_t CurrentSpeed = 0;
 void motors_set(MotorDir_t dir, uint16_t speed) {
 	CurrentDirection = dir;
 	CurrentSpeed = speed;
+//	PWM_BA_SetRatio16(MIN_DUTY);
+//	PWM_BB_SetRatio16(MIN_DUTY);
+//	PWM_FA_SetRatio16(MIN_DUTY);
+//	PWM_FB_SetRatio16(MIN_DUTY);
 
 	switch (dir) {
 	case MotorDir_Forward:
@@ -53,6 +57,10 @@ void motors_set(MotorDir_t dir, uint16_t speed) {
 		PWM_FB_SetRatio16(MIN_DUTY - speed);
 		break;
 	}
+}
+
+uint16_t motors_get_duty(void) {
+	return CurrentSpeed;
 }
 
 //uint16_t motors_get_speed(void) {
