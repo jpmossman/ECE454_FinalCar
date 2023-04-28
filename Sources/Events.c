@@ -45,8 +45,8 @@ extern "C" {
 
 /* ---------------------------------------- Global variables and constants ----------------------------------------- */
 // Configurable constants and coefficients
-const double Kps = 38;		// P constant for steering
-const double Kds = 4.5;		// D constant for steering
+const double Kps = 30;		// P constant for steering
+const double Kds = 2.5;		// D constant for steering
 const double Kpv = 1;		// P constant for velocity
 const double Ka = 1;		// Attenuation constant for when we veer off path
 const double Bv = 0.1;		// Infinite impulse response ratio for velocity smoothing
