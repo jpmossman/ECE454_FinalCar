@@ -81,9 +81,7 @@
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\VelocityTimer.c</PathName>
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Project_Settings\Startup_Code\startup.c</PathName>
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Events.c</PathName>
-      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\LineCam.c</PathName>
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Motors.c</PathName>
-      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Velocity.c</PathName>
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\main.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
@@ -120,9 +118,7 @@
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\TimerIntLdd1.h</PathName>
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Generated_Code\VelocityTimer.h</PathName>
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Events.h</PathName>
-      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\LineCam.h</PathName>
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Motors.h</PathName>
-      <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Sources\Velocity.h</PathName>
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\IO_Map\MKL25Z4.h</PathName>
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\ADC_PDD.h</PathName>
       <PathName>C:\Users\mrmoo\classes\ECE\454\kinetis\Car\Static_Code\PDD\CMP_PDD.h</PathName>
